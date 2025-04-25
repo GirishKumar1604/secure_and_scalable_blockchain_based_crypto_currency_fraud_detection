@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# macOS hidden files
+.DS_Store
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.tmp
+*.orig
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# PyCharm or VSCode IDE folders
+.idea/
+.vscode/
+
+# Media & Static files (optional, if generated or large)
+media/
+staticfiles/
+
+# Excel and dataset backups
+*.xls
+*.csv
+
+# Local settings (optional if you separate secrets)
+local_settings.py
+
+# If you use pipenv or poetry
+Pipfile.lock
+poetry.lock
